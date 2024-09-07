@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  font-family: monospace;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+input{
+  width: 100%;
+  padding: 8px;
+}
+
+button {
+  padding: 3px 5px;
+  border: none;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.submit-button button {
+  padding: 5px 15px;
+  background: black;
+  color: white;
+}
+
+.form-container {
+  width: 400px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #111;
+  background: #fefefe;
+}
+
+.todo {
+  width: 400px;
+  height: 450px;
+  background: #fefefe;
+  border-radius: 5px;
+  border: 1px solid #111;
+  padding: 10px;
+}
+
+
+.logout {
+  color: #fff;
+  background: black;
+  padding: 5px;
+}
+
+.todo-form {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+
+.todo-form button  {
+  font-size: 24px;
+  padding: 3px 10px;
+  background: black;
+  color: white;
+}
+
+.todo header {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo header div {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.todos ul, .todos ul li {
+  list-style: none;
+  padding: 3px 0;
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.todos ul {
+  border-bottom: 1px solid #ccc;
+}
+
+.todos ul li p {
+  font-size: 12px;
+}
+
+.edit-todo a {
+  color: #333;
+}
+
+.delete-todo a {
+  color: red;
+}
